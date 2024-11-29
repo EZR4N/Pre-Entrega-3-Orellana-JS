@@ -1,0 +1,49 @@
+header {
+  margin-left: 5rem;
+}
+
+.divHeader {
+  margin-left: 5rem;
+}
+
+#contenedorProductos {
+  display: flex;
+  margin-left: 5rem;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tarjetaRestaurante {
+  display: flex;
+  justify-content: center;
+}
+
+#contenedorMenus {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contenedorCarrito {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjetaTotalCarrito {
+  margin-top: 2rem;
+  padding: 2rem;
+  border: 1px;
+  border-style: solid;
+  border-color: red;
+}
+
+.btnElimininarItemCarrito {
+  background-color: red;
+}
+
+.oculta {
+  display: none !important;
+}
+
+/*# sourceMappingURL=style.css.map */
